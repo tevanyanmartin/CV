@@ -1,0 +1,33 @@
+body section .content .contacts {
+    overflow: hidden;
+}
+
+body section .content .contacts .contacts-sub-div {
+    width: 100%;
+}
+
+body section .content .contacts .contacts-sub-div p:nth-child(2n+1) {
+    float: left;
+    text-align: right;
+}
+
+body section .content .contacts .contacts-sub-div p:nth-child(2n+0) {
+    float: right;
+    text-align: left;
+}
+
+body section .content .contacts .contacts-sub-div p {
+    width: 53%;
+    color: white;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #bc4f00;
+
+}
+
+body section .content .contacts .contacts-sub-div p span {
+    text-transform: uppercase;
+    color: #bc4f00;
+    font-weight: 600;
+    font-size: 16px;
+}

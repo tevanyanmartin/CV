@@ -1,0 +1,60 @@
+@media screen and (max-width: 768px) {
+    .background-img p{
+        font-size: 13px;
+    }
+    body section .content .person-info .sub-person-info-div{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    body section .content .person-info .part2{
+        margin: 50px 0 0 0;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .open-menu{
+        display: block;
+    }
+    header{
+        background: #271101e0;
+        box-shadow: 0 0 6px 6px #271101e0;
+        position: fixed;
+        width: 100%;
+        right: -110%;
+        height: 90%;
+        top: 0;
+        overflow: hidden;
+    }
+    header .content .menu{
+        text-align: center;
+        flex-flow: column;
+        height: 500px;
+    }
+    header .content .menu a{
+        border-bottom: 1px solid gray;
+        padding-bottom: 15px;
+    }
+    section{
+        margin-top:0;
+    }
+    .content{
+        width: 100%;
+    }
+    body section .content .info-title h2{
+        width: 100%;
+        font-size: 35px;
+    }
+    body section .content .portfolio{
+        width: 95%;
+    }
+    body footer .footer{
+        width: 95%;
+        margin: auto;
+    }
+    body footer .footer p{
+        font-size: 10px;
+    }
+
+}
+
+

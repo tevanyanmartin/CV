@@ -1,0 +1,36 @@
+body section .content .person-info{
+    overflow: hidden;
+}
+body section .content .person-info .sub-person-info-div{
+    margin: auto;
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: start;
+}
+body section .content .person-info .part1 .img-div{
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+body section .content .person-info .part1 .img-div img{
+    width: 100%;
+}
+body section .content .person-info .part2 {
+    margin: 50px 0 0 100px;
+    width: 100%;
+}
+body section .content .person-info .part2 p{
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    font-size: 15px;
+}
+body section .content .person-info .part2 p span{
+    text-transform: uppercase;
+    color: #bc4f00;
+    font-weight: 600;
+    font-size: 16px;
+}

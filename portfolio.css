@@ -1,0 +1,24 @@
+body section .content .portfolio{
+    width: 80%;
+    margin: 70px auto 0;
+    overflow: hidden;
+}
+body section .content .portfolio .info{
+    padding: 20px 0px;
+    width: 70%;
+}
+body section .content .portfolio .info:nth-child(2n+1){
+    float: left;
+}
+body section .content .portfolio .info:nth-child(2n){
+
+    float: right;
+    text-align: end;
+}
+body section .content .portfolio .info p{
+    color: white;
+    font-size: 17px;
+}
+body section .content .portfolio .info p span{
+    color: #bc4f00;
+}
